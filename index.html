@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivanshi Health Care — Expert General Physician & Day Care Clinic in Nadergul</title>
+  <meta name="description" content="Shivanshi Health Care is the first MBBS & MD clinic in Nadergul, Hyderabad. Expert general physicians Dr. Srinu Naik & Dr. Nirosha provide quality healthcare, pediatrics, chronic care & preventive screenings. Book via WhatsApp.">
+  <meta name="keywords" content="Shivanshi Health Care, clinic Nadergul, general physician Nadergul, Dr Srinu Naik, Dr Nirosha, MBBS MD clinic, day care clinic, Hyderabad, Telangana">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="navbar-brand">
+        <div class="navbar-logo">S</div>
+        <div class="navbar-brand-text">
+          <h1>Shivanshi Health Care</h1>
+          <span>Expert General Physician & Day Care Clinic</span>
+        </div>
+      </a>
+
+      <div class="navbar-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#location">Location</a>
+      </div>
+
+      <div class="navbar-cta">
+        <a href="tel:+918500251255" class="btn btn--outline" id="nav-call-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20share%20the%20available%20doctor%20and%20appointment%20timings." target="_blank" class="btn btn--whatsapp" id="nav-whatsapp-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Book Appointment
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobileMenu()">About</a>
+    <a href="#services" onclick="closeMobileMenu()">Services</a>
+    <a href="#doctors" onclick="closeMobileMenu()">Doctors</a>
+    <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+    <a href="#reviews" onclick="closeMobileMenu()">Reviews</a>
+    <a href="#location" onclick="closeMobileMenu()">Location</a>
+    <div class="mobile-cta">
+      <a href="tel:+918500251255" class="btn btn--primary btn--lg" style="justify-content:center;">📞 Call Now: 85002 51255</a>
+      <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20share%20the%20available%20doctor%20and%20appointment%20timings." target="_blank" class="btn btn--whatsapp btn--lg" style="justify-content:center;">💬 Book on WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-content fade-in">
+        <div class="hero-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          First MBBS & MD Clinic in Nadergul
+        </div>
+        <h2 class="hero-title">
+          Your Health, <span>Our Priority</span>
+        </h2>
+        <p class="hero-description">
+          Shivanshi Health Care provides expert medical consultation, preventive care, pediatric healthcare, and day care services in Nadergul, Hyderabad. Trusted by hundreds of patients with a 5.0 ★ Google rating.
+        </p>
+        <div class="hero-buttons">
+          <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20share%20the%20available%20doctor%20and%20appointment%20timings." target="_blank" class="btn btn--whatsapp btn--lg" id="hero-whatsapp-btn">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Book Appointment via WhatsApp
+          </a>
+          <a href="tel:+918500251255" class="btn btn--outline btn--lg" id="hero-call-btn">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call: 85002 51255
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-value">5.0 ★</div>
+            <div class="hero-stat-label">Google Rating</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">600+</div>
+            <div class="hero-stat-label">Happy Patients</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">2</div>
+            <div class="hero-stat-label">Expert Doctors</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in-right">
+        <div class="hero-photo-frame">
+          <img src="images/doctors-consultation.jpg" alt="Dr. Srinu Naik & Dr. Nirosha in Consultation" class="hero-main-img">
+          <div class="hero-photo-overlay">
+            <div class="hero-photo-title">Expert Medical Consultation</div>
+            <div class="hero-photo-sub">Dr. Srinu Naik & Dr. Nirosha — Nadergul, Hyderabad</div>
+          </div>
+          <div class="hero-float-card hero-float-card--1">
+            <div class="hero-float-icon hero-float-icon--green">✓</div>
+            <div>
+              <div style="font-weight:700;color:#059669;">MBBS & MD</div>
+              <div style="font-size:0.7rem;color:#94A3B8;">Qualified Doctors</div>
+            </div>
+          </div>
+          <div class="hero-float-card hero-float-card--2">
+            <div class="hero-float-icon hero-float-icon--blue">🕐</div>
+            <div>
+              <div style="font-weight:700;color:#0369A1;">8 AM – 11 PM</div>
+              <div style="font-size:0.7rem;color:#94A3B8;">Mon – Sat</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content fade-in-left">
+          <div class="section-label">About Us</div>
+          <h2 class="section-title">The First MBBS & MD Clinic in Nadergul</h2>
+          <div class="about-highlight">
+            Bringing quality healthcare closer to your doorstep — because your health deserves the best.
+          </div>
+          <p class="about-text">
+            Shivanshi Health Care is a trusted general physician and day care clinic located at Nadergul Bus Stop, Hyderabad. Established in 2023, we are proud to be the first MBBS & MD clinic in the Nadergul area, providing expert medical consultation to individuals and families.
+          </p>
+          <p class="about-text">
+            Our doctors — Dr. Srinu Naik and Dr. Nirosha — are highly qualified with MBBS and MD degrees, and are dedicated to delivering compassionate, patient-centered care. We believe that quality healthcare should be accessible, affordable, and close to home.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🩺</div>
+              <span>MBBS & MD Doctors</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🏥</div>
+              <span>Day Care Facility</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">💰</div>
+              <span>Affordable Fees</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🧹</div>
+              <span>Clean & Hygienic</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">👶</div>
+              <span>Pediatric Care</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">❤️</div>
+              <span>Patient-Centered Care</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrapper fade-in-right">
+          <div class="about-photo-frame">
+            <img src="images/doctors-team.jpg" alt="Dr. Srinu Naik and Dr. Nirosha at Shivanshi Health Care" class="about-main-img">
+            <div class="about-photo-caption">
+              <div style="font-family:var(--font-heading);font-size:1.05rem;font-weight:700;">First MBBS & MD Clinic</div>
+              <div style="font-size:0.8rem;color:rgba(255,255,255,0.85);">Serving Nadergul Community Since 2023</div>
+            </div>
+          </div>
+          <div class="about-stat-card">
+            <div class="about-stat-value">5.0★</div>
+            <div class="about-stat-label">Google Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES SECTION ====== -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Our Services</div>
+        <h2 class="section-title">Comprehensive Healthcare Services</h2>
+        <p class="section-subtitle">From routine checkups to chronic condition management — we provide complete healthcare for your entire family.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in" style="transition-delay:0.05s">
+          <div class="service-icon">🩺</div>
+          <h3>Medical Consultations</h3>
+          <p>Expert consultation with qualified MBBS & MD general physicians for accurate diagnosis, treatment plans, and medical guidance.</p>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.1s">
+          <div class="service-icon">🔬</div>
+          <h3>Preventive Care & Screenings</h3>
+          <p>Routine health checkups, early detection screenings, and preventive healthcare programs to keep you and your family healthy.</p>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.15s">
+          <div class="service-icon">👶</div>
+          <h3>Pediatric Healthcare</h3>
+          <p>Comprehensive wellness, growth monitoring, vaccination guidance, and development tracking for children of all ages.</p>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.2s">
+          <div class="service-icon">🏥</div>
+          <h3>Day Care Services</h3>
+          <p>Short-stay medical procedures, IV treatments, monitoring, and day care clinical services in a clean, comfortable environment.</p>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.25s">
+          <div class="service-icon">💊</div>
+          <h3>Chronic Condition Management</h3>
+          <p>Personalized care plans for managing diabetes, hypertension, thyroid disorders, and other long-term health conditions.</p>
+        </div>
+        <div class="service-card fade-in" style="transition-delay:0.3s">
+          <div class="service-icon">🥗</div>
+          <h3>Diet & Lifestyle Guidance</h3>
+          <p>Practical diet plans, nutrition counseling, and lifestyle advice to support your health goals and overall well-being.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== DOCTORS SECTION ====== -->
+  <section class="section" id="doctors">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Our Doctors</div>
+        <h2 class="section-title">Meet Our Expert Physicians</h2>
+        <p class="section-subtitle">Qualified, caring, and dedicated doctors who put patients first.</p>
+      </div>
+      <div class="doctors-grid">
+        <!-- Doctor 1: Dr. Srinu Naik -->
+        <div class="doctor-card fade-in" style="transition-delay:0.05s">
+          <div class="doctor-card-photo-header">
+            <img src="images/dr-srinu-pediatric.jpg" alt="Dr. Srinu Naik" class="doctor-photo-img">
+            <div class="doctor-photo-overlay">
+              <div class="doctor-name">Dr. Srinu Naik</div>
+              <div class="doctor-qual">MBBS, MD — General Physician</div>
+            </div>
+          </div>
+          <div class="doctor-card-body">
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🎓</div>
+              <div>
+                <div class="doctor-info-label">Qualification</div>
+                <div class="doctor-info-value">MBBS, MD</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🩺</div>
+              <div>
+                <div class="doctor-info-label">Specialization</div>
+                <div class="doctor-info-value">General Physician</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">⭐</div>
+              <div>
+                <div class="doctor-info-label">Experience</div>
+                <div class="doctor-info-value">5+ Years Experience</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🕐</div>
+              <div>
+                <div class="doctor-info-label">Timings</div>
+                <div class="doctor-info-value">Mon–Sat: 8 AM – 2 PM & 4 PM – 11 PM<br>Sun: 10 AM – 10 PM</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">✅</div>
+              <div>
+                <div class="doctor-info-label">Status</div>
+                <span class="doctor-status doctor-status--available">Available</span>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-card-footer">
+            <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Srinu%20Naik.%20Please%20share%20the%20available%20timings." target="_blank" class="doctor-book-btn" id="book-dr-srinu">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Book Appointment with Dr. Srinu Naik
+            </a>
+          </div>
+        </div>
+
+        <!-- Doctor 2: Dr. A. Nirosha -->
+        <div class="doctor-card fade-in" style="transition-delay:0.15s">
+          <div class="doctor-card-photo-header">
+            <img src="images/dr-nirosha-bp-check.jpg" alt="Dr. A. Nirosha, MBBS" class="doctor-photo-img">
+            <div class="doctor-photo-overlay">
+              <div class="doctor-name">Dr. A. Nirosha</div>
+              <div class="doctor-qual">MBBS — Family Physician</div>
+            </div>
+          </div>
+          <div class="doctor-card-body">
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🎓</div>
+              <div>
+                <div class="doctor-info-label">Qualification</div>
+                <div class="doctor-info-value">MBBS</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🩺</div>
+              <div>
+                <div class="doctor-info-label">Specialization</div>
+                <div class="doctor-info-value">Family Physician</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">🕐</div>
+              <div>
+                <div class="doctor-info-label">Timings</div>
+                <div class="doctor-info-value">Mon–Sat: 8 AM – 2 PM & 4 PM – 11 PM<br>Sun: 10 AM – 10 PM</div>
+              </div>
+            </div>
+            <div class="doctor-info-row">
+              <div class="doctor-info-icon">✅</div>
+              <div>
+                <div class="doctor-info-label">Status</div>
+                <span class="doctor-status doctor-status--available">Available</span>
+              </div>
+            </div>
+          </div>
+          <div class="doctor-card-footer">
+            <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20A.%20Nirosha.%20Please%20share%20the%20available%20timings." target="_blank" class="doctor-book-btn" id="book-dr-nirosha">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Book Appointment with Dr. A. Nirosha
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY SECTION ====== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Clinical Care in Action</div>
+        <h2 class="section-title">Life at Shivanshi Health Care</h2>
+        <p class="section-subtitle">Real photos from our clinic in Nadergul — compassionate doctor consultations, pediatric care, blood pressure checkups, and day care treatment.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card fade-in" style="transition-delay:0.05s">
+          <div class="gallery-img-wrapper">
+            <img src="images/doctors-consultation.jpg" alt="Expert Medical Consultation" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-card-body">
+            <span class="gallery-tag">Consultation</span>
+            <h3 class="gallery-title">Comprehensive Diagnosis & Scan Review</h3>
+            <p class="gallery-desc">Dr. Srinu Naik & Dr. Nirosha reviewing diagnostics and patient X-rays together in the consultation room.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card fade-in" style="transition-delay:0.1s">
+          <div class="gallery-img-wrapper">
+            <img src="images/dr-srinu-pediatric.jpg" alt="Pediatric Examination" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-card-body">
+            <span class="gallery-tag">Pediatric Care</span>
+            <h3 class="gallery-title">Child Health & Wellness Checkup</h3>
+            <p class="gallery-desc">Dr. Srinu Naik performing gentle stethoscope examination for young pediatric patients.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card fade-in" style="transition-delay:0.15s">
+          <div class="gallery-img-wrapper">
+            <img src="images/dr-nirosha-bp-check.jpg" alt="Health Screening" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-card-body">
+            <span class="gallery-tag">Preventive Screening</span>
+            <h3 class="gallery-title">Blood Pressure & Vital Monitoring</h3>
+            <p class="gallery-desc">Dr. Nirosha checking blood pressure and conducting preventive health assessments.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card fade-in" style="transition-delay:0.2s">
+          <div class="gallery-img-wrapper">
+            <img src="images/dr-srinu-treatment.jpg" alt="Day Care Treatment" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-card-body">
+            <span class="gallery-tag">Day Care Services</span>
+            <h3 class="gallery-title">Wound Dressing & Day Care Procedure</h3>
+            <p class="gallery-desc">Dr. Srinu Naik treating a patient's injury with sterile dressing in the clinic day care room.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card fade-in" style="transition-delay:0.25s">
+          <div class="gallery-img-wrapper">
+            <img src="images/doctors-team.jpg" alt="Doctors Team" class="gallery-img" loading="lazy">
+          </div>
+          <div class="gallery-card-body">
+            <span class="gallery-tag">Our Physicians</span>
+            <h3 class="gallery-title">First MBBS & MD Doctors in Nadergul</h3>
+            <p class="gallery-desc">Dr. Srinu Naik and Dr. Nirosha dedicated to delivering quality healthcare to Nadergul families.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== REVIEWS SECTION ====== -->
+  <section class="section section--alt" id="reviews">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Patient Reviews</div>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-subtitle">Real reviews from real patients who trust Shivanshi Health Care.</p>
+      </div>
+      <div class="reviews-header-stats fade-in">
+        <div class="reviews-rating-big">
+          <div class="reviews-rating-value">5.0</div>
+          <div class="reviews-stars">★★★★★</div>
+          <div class="reviews-count">Based on Google Reviews</div>
+        </div>
+        <div class="reviews-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color:#D97706"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          4.9 out of 5 — Over 600 patients served
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card fade-in" style="transition-delay:0.05s">
+          <div class="review-header">
+            <div class="review-avatar">B</div>
+            <div class="review-meta">
+              <h4>Balaraju Eegala</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">The doctor is very humble and takes time to properly listen and check the patient. They explain the health problems very well and give very genuine treatment. Very affordable fees and clean environment. Best clinic in Nadergul.</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+
+        <div class="review-card fade-in" style="transition-delay:0.1s">
+          <div class="review-header">
+            <div class="review-avatar">S</div>
+            <div class="review-meta">
+              <h4>Swathi Reddy</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Dr. Nirosha is very friendly and professional. She listens carefully and gives practical diet and lifestyle advice along with the treatment. She is very humble and attentive. The staff is also very polite. Highly recommended for families.</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+
+        <div class="review-card fade-in" style="transition-delay:0.15s">
+          <div class="review-header">
+            <div class="review-avatar">R</div>
+            <div class="review-meta">
+              <h4>Rajesh Kumar</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Dr. Srinu Naik is very experienced, calm and patient. He explains everything clearly without rushing. No unnecessary tests or medicines. Treatment costs are very reasonable. The clinic is clean and well-maintained. Strongly recommend!</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+
+        <div class="review-card fade-in" style="transition-delay:0.2s">
+          <div class="review-header">
+            <div class="review-avatar">M</div>
+            <div class="review-meta">
+              <h4>Meena Kumari</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Both the doctors here are very caring and treat patients with respect. My kids always feel comfortable visiting. The clinic is very hygienic and the staff is helpful. The best healthcare we've found near Nadergul.</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+
+        <div class="review-card fade-in" style="transition-delay:0.25s">
+          <div class="review-header">
+            <div class="review-avatar">A</div>
+            <div class="review-meta">
+              <h4>Anil Prasad</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Very impressed with the quality of care here. Dr. Srinu Naik is approachable and doesn't prescribe unnecessary medicines. He takes the time to understand your condition fully. The fees are very fair. Highly recommend this clinic to everyone.</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+
+        <div class="review-card fade-in" style="transition-delay:0.3s">
+          <div class="review-header">
+            <div class="review-avatar">P</div>
+            <div class="review-meta">
+              <h4>Priya Sharma</h4>
+              <span class="review-date">Google Review</span>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Dr. Nirosha is wonderful — she listened to all my concerns patiently and gave me clear guidance on diet and lifestyle changes. The clinic is spotlessly clean. Staff treated me with kindness from the moment I walked in. Thank you!</p>
+          <div class="review-source">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="#4285F4"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            Verified Google Review
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== LOCATION SECTION ====== -->
+  <section class="section" id="location">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-label">Find Us</div>
+        <h2 class="section-title">Visit Shivanshi Health Care</h2>
+        <p class="section-subtitle">Conveniently located at Nadergul Bus Stop, Hyderabad — easy to find and accessible.</p>
+      </div>
+      <div class="location-grid">
+        <div class="location-map fade-in-left">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.123!2d78.5491!3d17.2938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sShivanshi+Health+Care+Nadergul!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Shivanshi Health Care Location"></iframe>
+        </div>
+        <div class="location-info fade-in-right">
+          <div class="location-card">
+            <div class="location-card-title">📍 Hospital Details</div>
+            <div class="location-item">
+              <div class="location-item-icon">🏥</div>
+              <div>
+                <div class="location-item-label">Address</div>
+                <div class="location-item-value">Nadergul Bus Stop, Nadergul,<br>Hyderabad, Telangana 501510</div>
+              </div>
+            </div>
+            <div class="location-item">
+              <div class="location-item-icon">📞</div>
+              <div>
+                <div class="location-item-label">Phone</div>
+                <div class="location-item-value"><a href="tel:+918500251255">+91 85002 51255</a></div>
+              </div>
+            </div>
+            <div class="location-item">
+              <div class="location-item-icon">💬</div>
+              <div>
+                <div class="location-item-label">WhatsApp</div>
+                <div class="location-item-value"><a href="https://wa.me/918500251255" target="_blank">+91 85002 51255</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-card">
+            <div class="location-card-title">🕐 Working Hours</div>
+            <div class="timings-grid">
+              <div class="timing-row">
+                <span class="timing-day">Monday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Tuesday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Wednesday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Thursday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Friday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Saturday</span>
+                <span class="timing-hours">8:00 AM – 2:00 PM, 4:00 PM – 11:00 PM</span>
+              </div>
+              <div class="timing-row">
+                <span class="timing-day">Sunday</span>
+                <span class="timing-hours">10:00 AM – 10:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="location-buttons">
+            <a href="https://maps.google.com/?q=Shivanshi+Health+Care+Nadergul+Hyderabad" target="_blank" class="btn btn--primary btn--lg" id="get-directions-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+              Get Directions
+            </a>
+            <a href="tel:+918500251255" class="btn btn--outline btn--lg" id="location-call-btn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA SECTION ====== -->
+  <section class="section section--dark" id="cta">
+    <div class="container">
+      <div class="section-header fade-in" style="margin-bottom:32px;">
+        <div class="section-label">Book an Appointment</div>
+        <h2 class="section-title">Ready to Take Care of Your Health?</h2>
+        <p class="section-subtitle">Book your appointment in seconds via WhatsApp. Our doctors are here for you.</p>
+      </div>
+      <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;" class="fade-in">
+        <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20share%20the%20available%20doctor%20and%20appointment%20timings." target="_blank" class="btn btn--whatsapp btn--lg" id="cta-whatsapp-btn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Book Appointment via WhatsApp
+        </a>
+        <a href="tel:+918500251255" class="btn btn--outline btn--lg" style="border-color:rgba(255,255,255,0.2);color:white;" id="cta-call-btn">
+          📞 Call: +91 85002 51255
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Shivanshi Health Care</h3>
+          <p>The first MBBS & MD clinic in Nadergul, providing expert general physician services, preventive care, pediatric healthcare, and day care facilities. Your health, our priority.</p>
+          <div class="footer-social">
+            <a href="https://wa.me/918500251255" target="_blank" aria-label="WhatsApp" title="WhatsApp">💬</a>
+            <a href="tel:+918500251255" aria-label="Phone" title="Call Us">📞</a>
+            <a href="https://maps.google.com/?q=Shivanshi+Health+Care+Nadergul+Hyderabad" target="_blank" aria-label="Google Maps" title="Find Us">📍</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#doctors">Our Doctors</a>
+          <a href="#reviews">Patient Reviews</a>
+          <a href="#location">Location & Hours</a>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#services">Medical Consultations</a>
+          <a href="#services">Preventive Screenings</a>
+          <a href="#services">Pediatric Care</a>
+          <a href="#services">Day Care Services</a>
+          <a href="#services">Chronic Care</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📍</div>
+            <div>Nadergul Bus Stop, Nadergul,<br>Hyderabad, Telangana 501510</div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📞</div>
+            <div><a href="tel:+918500251255" style="color:#38BDF8;">+91 85002 51255</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">🕐</div>
+            <div>Mon–Sat: 8 AM – 11 PM<br>Sun: 10 AM – 10 PM</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Shivanshi Health Care. All rights reserved. | Nadergul, Hyderabad, Telangana</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== FLOATING CTA BUTTONS ====== -->
+  <div class="floating-cta">
+    <a href="tel:+918500251255" class="float-btn float-btn--call" aria-label="Call now" id="float-call-btn">
+      <span class="float-btn-tooltip">Call: 85002 51255</span>
+      📞
+    </a>
+    <a href="https://wa.me/918500251255?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment.%20Please%20share%20the%20available%20doctor%20and%20appointment%20timings." target="_blank" class="float-btn float-btn--whatsapp" aria-label="WhatsApp" id="float-whatsapp-btn">
+      <span class="float-btn-tooltip">Book on WhatsApp</span>
+      💬
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
